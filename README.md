@@ -1,70 +1,350 @@
-# Getting Started with Create React App
+# Krishna Kumar -- Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for my personal developer
+portfolio.
 
-## Available Scripts
+The portfolio highlights my work as a **Backend & macOS Systems
+Engineer**, focusing on:
 
-In the project directory, you can run:
+-   macOS system-level development
+-   backend architecture
+-   CI/CD automation
+-   scalable software systems
+-   research and publications
 
-### `npm start`
+The goal of this project is to build a **high-impact engineering
+portfolio** that clearly demonstrates production experience, technical
+depth, and engineering thinking.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+------------------------------------------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Portfolio Redesign Plan
 
-### `npm test`
+This document outlines the **complete work plan** for upgrading the
+current portfolio design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The redesign will improve:
 
-### `npm run build`
+-   information hierarchy
+-   engineering storytelling
+-   recruiter conversion
+-   visual polish and animations
+-   project presentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+------------------------------------------------------------------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Phase 1 --- Project Audit
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Analyze the existing codebase and document:
 
-### `npm run eject`
+-   component structure
+-   styling framework
+-   animation libraries
+-   routing
+-   performance metrics
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Deliverables:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+/docs\
+portfolio-architecture.md\
+ui-components.md\
+tech-stack.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Check for:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   React / NextJS structure
+-   Tailwind or CSS modules
+-   animation libraries (Framer Motion / GSAP)
+-   component reusability
 
-## Learn More
+------------------------------------------------------------------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Phase 2 --- Layout Restructure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Rebuild page structure into the following order:
 
-### Code Splitting
+Hero\
+What I Build\
+Experience\
+Featured Projects\
+Technical Skills\
+Publications\
+Education\
+Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+New modular components:
 
-### Analyzing the Bundle Size
+components/\
+HeroSection.tsx\
+WhatIBuild.tsx\
+ExperienceSection.tsx\
+ProjectsSection.tsx\
+SkillsSection.tsx\
+PublicationsSection.tsx\
+EducationSection.tsx\
+ContactSection.tsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Each section must remain modular and reusable.
 
-### Making a Progressive Web App
+------------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Phase 3 --- Hero Section Upgrade
 
-### Advanced Configuration
+Hero content should include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-   Name
+-   Role
+-   Short positioning statement
+-   CTA buttons
 
-### Deployment
+Example content:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Krishna Kumar\
+Backend & macOS Systems Engineer
 
-### `npm run build` fails to minify
+I build high-performance backup systems, developer tools, and scalable
+backend services.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Currently working on macOS system software at IDrive.
+
+CTA buttons:
+
+-   View Projects
+-   Download Resume
+-   Contact Me
+
+UI enhancements:
+
+-   animated background grid
+-   glowing gradient accent
+-   staggered text animations
+
+------------------------------------------------------------------------
+
+# Phase 4 --- "What I Build" Section
+
+Create a 3-column specialization layout.
+
+Cards:
+
+-   System Software
+-   Backend Systems
+-   Developer Infrastructure
+
+Example:
+
+System Software - macOS backup engines - file system automation - system
+services
+
+Backend Systems - REST APIs - authentication systems - scalable backend
+architecture
+
+Developer Infrastructure - CI/CD pipelines - developer tooling -
+automation frameworks
+
+------------------------------------------------------------------------
+
+# Phase 5 --- Experience Section
+
+Convert resume into impact-driven experience cards.
+
+Structure:
+
+Company\
+Role\
+Duration\
+Achievements\
+Tech Stack
+
+Example:
+
+IDrive Software India\
+Programmer Analyst\
+July 2023 -- Present
+
+Improved backup performance by integrating Wimlib achieving:
+
+-   2.5× faster backups
+-   3× faster restores
+
+Tech stack:
+
+Swift, Objective-C, C, System Services, CI/CD
+
+------------------------------------------------------------------------
+
+# Phase 6 --- Featured Projects Section
+
+Minimum 3 project cards.
+
+Structure:
+
+Project Card - Screenshot - Title - Description - Tech stack - Links
+
+Projects:
+
+### MERN Blog Platform
+
+Tech: React, Node.js, Express, MongoDB, JWT
+
+Features: - authentication - CRUD blog management - protected APIs
+
+### macOS Backup Monitor (new)
+
+Menu bar utility for monitoring backup status.
+
+Tech: Swift, File monitoring, macOS APIs
+
+### Backend Logging System (new)
+
+Distributed logging platform.
+
+Tech: Node.js, Redis, Docker, REST APIs
+
+------------------------------------------------------------------------
+
+# Phase 7 --- Technical Skills Section
+
+Languages - Swift - Objective-C - C++ - JavaScript - Java
+
+Backend - Node.js - Express - REST APIs - MongoDB - MySQL
+
+Systems - System Design - Data Structures - OOP
+
+DevOps - Docker - CI/CD - GitLab - Xcode
+
+------------------------------------------------------------------------
+
+# Phase 8 --- Publications Section
+
+Comparative Analysis of Lumpy Skin Disease Detection Using Deep Learning
+Models
+
+Published in: Deep Learning in Medical Image Processing and Analysis
+(IET, 2024)
+
+Include: - publication year - publisher - external link
+
+------------------------------------------------------------------------
+
+# Phase 9 --- Education Section
+
+National Institute of Technology Silchar
+
+Bachelor of Technology\
+Computer Science & Engineering
+
+CGPA: 8.39
+
+------------------------------------------------------------------------
+
+# Phase 10 --- Contact Section
+
+Let's Build Something Impactful
+
+Contact methods:
+
+-   Email
+-   GitHub
+-   LinkedIn
+-   Resume Download
+
+------------------------------------------------------------------------
+
+# Phase 11 --- UI Enhancements
+
+Card hover effect:
+
+-   translateY(-6px)
+-   stronger shadow
+-   glow border
+
+Button hover:
+
+-   gradient shift
+-   soft glow animation
+
+Scroll animations:
+
+-   staggered section reveal
+-   fade-in
+-   slide-up
+
+------------------------------------------------------------------------
+
+# Phase 12 --- Background Effects
+
+Enhance background with subtle motion:
+
+-   animated grid
+-   soft particles
+-   gradient glow
+
+Ensure performance optimization.
+
+------------------------------------------------------------------------
+
+# Phase 13 --- Performance Optimization
+
+Target:
+
+Lighthouse Score \> 90
+
+Optimizations:
+
+-   lazy loading
+-   image optimization
+-   code splitting
+
+------------------------------------------------------------------------
+
+# Phase 14 --- SEO
+
+Add metadata:
+
+-   title
+-   description
+-   keywords
+-   OpenGraph tags
+
+Example keywords:
+
+-   Backend Engineer Portfolio
+-   macOS Developer
+-   System Software Engineer
+
+------------------------------------------------------------------------
+
+# Phase 15 --- Deployment
+
+Deploy using Vercel.
+
+Setup:
+
+-   custom domain
+-   SSL
+-   performance monitoring
+
+------------------------------------------------------------------------
+
+# Optional Enhancements
+
+Future improvements:
+
+-   GitHub activity graph
+-   system architecture diagrams
+-   interactive project demos
+
+------------------------------------------------------------------------
+
+# Goal
+
+Create a **top-tier engineering portfolio** that clearly communicates:
+
+-   production engineering experience
+-   system design capability
+-   backend and macOS expertise
+-   technical depth
+
+This portfolio should serve as a **professional showcase for backend and
+system engineering roles**.
