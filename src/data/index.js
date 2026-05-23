@@ -90,7 +90,7 @@ export const experience = [
 ];
 
 export const skills = [
-    { category: "Languages", items: ["C", "C++", "Swift", "Objective-C", "JavaScript", "Java"] },
+    { category: "Languages", items: ["C", "C++", "Swift", "Objective-C", "JavaScript", "Python"] },
     { category: "Backend", items: ["Node.js", "Express", "REST APIs", "JWT", "MongoDB", "MySQL"] },
     { category: "Systems", items: ["macOS Development", "Daemon Services", "System Design", "Data Structures", "OOP"] },
     { category: "AI Tooling", items: ["Model Context Protocol (MCP)", "Claude-integrated workflows", "Natural language automation"] },
@@ -112,12 +112,40 @@ export const education = [
         institution: "Noble School, Falna",
         description: "",
     },
+];
+
+export const certifications = [
     {
-        icon: "📜",
-        period: "Professional Certifications",
-        degree: "Web Development & Databases",
-        institution: "Online Professional Training",
-        description: "The Complete Web Development Bootcamp, HTML/CSS/JavaScript for Web Developers, The Ultimate MySQL Bootcamp, and MySQL certification.",
+        icon: "udemy",
+        period: "Completed",
+        degree: "The Complete 2022 Web Development Bootcamp",
+        institution: "Udemy",
+        description: "",
+        url: "https://www.udemy.com/certificate/UC-b101d6a5-3fcc-417d-8b31-138070992e0b/",
+    },
+    {
+        icon: "udemy",
+        period: "Completed",
+        degree: "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
+        institution: "Udemy",
+        description: "",
+        url: "https://www.udemy.com/certificate/UC-871a6795-0e4a-4b4c-861d-42fb6302e0d6/",
+    },
+    {
+        icon: "hackerrank",
+        period: "Completed",
+        degree: "MySQL",
+        institution: "HackerRank",
+        description: "",
+        url: "https://www.hackerrank.com/certificates/f86480eac74d",
+    },
+    {
+        icon: "coursera",
+        period: "Issued Oct 2020",
+        degree: "HTML, CSS, and Javascript for Web Developers",
+        institution: "Coursera",
+        description: "Credential ID: 96ATQ3K4MV8K",
+        url: "https://www.coursera.org/account/accomplishments/certificate/96ATQ3K4MV8K",
     },
 ];
 
@@ -127,5 +155,24 @@ export const publications = [
         title: "Comparative Analysis of Lumpy Skin Disease Detection Using Deep Learning Models",
         description: "Published research analyzing deep learning models for lumpy skin disease detection in medical imaging workflows.",
         href: "https://digital-library.theiet.org/doi/10.1049/pbhe059e_ch5",
+    },
+];
+
+export const codingStats = [
+    {
+        platform: "LeetCode",
+        handle: "krishna2023",
+        url: "https://leetcode.com/u/krishna2023/",
+        statsUrl: "https://leetcode-badge.fullstackclub.com/api/users/krishna2023?ext=heatmap",
+    },
+    {
+        platform: "CodeForces",
+        handle: "noobcoder9196",
+        url: "https://codeforces.com/profile/noobcoder9196",
+    },
+    {
+        platform: "HackerRank",
+        handle: "krishna9196",
+        url: "https://www.hackerrank.com/krishna9196",
     },
 ];

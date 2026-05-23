@@ -14,6 +14,7 @@ import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Education from "./components/Education.jsx";
 import Publications from "./components/Publications.jsx";
+import CodingStats from "./components/CodingStats.jsx";
 import Contact from "./components/Contact.jsx";
 
 const RESUME_PREVIEW_URL = "https://drive.google.com/file/d/152jcg5mzNXb99MxrAs9MncV6yyZu5dub/preview";
@@ -31,7 +32,7 @@ export default function App() {
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const revealElements = document.querySelectorAll(".reveal");
     const interactiveCards = document.querySelectorAll(
-      ".project-card, .exp-card, .skill-group, .edu-card, .pub-card, .contact-card"
+      ".project-card, .exp-card, .skill-group, .edu-card, .pub-card, .contact-card, .coding-card"
     );
 
     const handleScrollProgress = () => {
@@ -142,6 +143,7 @@ export default function App() {
         <Experience />
         <Projects />
         <Skills />
+        <CodingStats />
         <Publications />
         <Education />
         <Contact onOpenResume={openResumeModal} />

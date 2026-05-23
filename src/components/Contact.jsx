@@ -3,8 +3,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { FaGithub, FaLinkedin, SiLeetcode } from "../icons/index.js";
 
 const RESUME_DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=152jcg5mzNXb99MxrAs9MncV6yyZu5dub";
 

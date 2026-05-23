@@ -2,8 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { FaGithub, FaLinkedin, SiLeetcode } from "../icons/index.js";
 
 export default function Header({ onOpenResume }) {
     return (
@@ -22,6 +21,7 @@ export default function Header({ onOpenResume }) {
                     { label: "Projects", href: "#projects" },
                     { label: "Experience", href: "#experience" },
                     { label: "Skills", href: "#skills" },
+                    { label: "Stats", href: "#coding-stats" },
                     { label: "Publications", href: "#publications" },
                     { label: "Contact", href: "#contact" },
                 ].map((link) => (

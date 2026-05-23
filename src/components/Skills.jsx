@@ -37,16 +37,15 @@ export default function Skills() {
                         <Stack direction="row" flexWrap="wrap" gap={1.5} className="skill-pills">
                             {group.items.map((item) => (
                                 <Chip key={item} label={item} size="medium" sx={{
-                                    background: "rgba(255,255,255,0.05)",
-                                    border: "1px solid rgba(255,255,255,0.1)",
+                                    background: "transparent",
+                                    border: "none",
                                     color: "text.primary",
                                     fontSize: "0.85rem",
                                     px: 1, py: 2,
                                     borderRadius: "12px",
                                     fontWeight: 600,
                                     "&:hover": {
-                                        background: "rgba(59, 130, 246, 0.15)",
-                                        borderColor: "rgba(59, 130, 246, 0.4)",
+                                        background: "transparent",
                                         color: "#60a5fa"
                                     }
                                 }} />
